@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#content{
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+    background-image: url(imgs/loja-roupas-turva.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+#boxTitle{
+    height: 100%;
+    padding-top: 25vh;
+    box-sizing: border-box;
+}
+form{
+    background-color: rgba(235, 114, 44, 0.466);
+    height: 500px;
+    padding: 30px;
+    border-radius: 5px;
+}
+#titleRegister{
+    color: #fff;
+    font-size: 40px;
+    background-color: rgba(92, 90, 90, 0.418);
+    padding: 30px 100px;
+    border-radius: 5px;
+}
+.boxInput{
+    display: flex;
+    flex-direction: column;
+}
+.identifierRegister{
+    color: #fff;
+    
+}
+#nameRegister, #emailRegister, #passRegister, #passConfirmRegister{
+    height: 40px;
+    width: 400px;
+    border-radius: 5px;
+    border: none;
+    margin: 10px 0;
+    padding: 0 15px;
+}
+#btnRegister{
+    background-color: #f04c27;
+    text-decoration: none;
+    width: 100%;
+    display: block;
+    padding: 15px;
+    color: #fff;
+    margin: 50px 0;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    border: none;
+}#btnRegister:hover{
+    background-color: #f3370d;
+    cursor: pointer;
+}
+#backLogin{
+    color: #fff;
+    padding-bottom: 5px;
+    text-decoration: none;
+    border-bottom: 2px solid ;
+}
+#backLogin:hover{
+    color: #d1d1d1;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="loginPage">
+        <div id="content">
+            <div id="partForm">
+                <h1 id="titleLogin">Crie sua conta para realizar login</h1>
+                <form action="#">
+                    <div class="boxData">
+                        <label for="emailLogin" class="identifier">Email</label>
+                        <input type="email" id="emailLogin" placeholder="Digite seu email" required>
+                    </div>
+                    <div class="boxData">
+                        <label for="passLogin" class="identifier">Senha</label>
+                        <input type="password" id="passLogin" placeholder="Digite sua senha" required>
+                    </div>
+                    <div class="boxForgotPass">
+                        <div>
+                            <input type="checkbox" required>
+                            <label for="rememberLogin" class="identifier">Lembrar por 30 dias</label>
+                        </div>
+                        <a href="../forgotPassword/forgotPass.html" id="forgotPass">Esqueceu sua senha?</a>
+                    </div>
+                    <button id="loginYes">Realizar login</button>
+                    <a href="#" id="loginGoogle"><img src="./imgs-index/icon-google.png" alt="Icone google" width="30px">Realizar login com Google</a>
+                    <div id="boxRegister">
+                        <p id="register">Não tem sua conta ainda? <a href="../register/registerPage.html">Cadastre-se aqui!</a></p>
+                    </div>
+                </form>
+            </div>
+            <div id="imgLogin">
+                <h1 id="subtTitleLogin">Venha fazer suas compras com a gente.</h1>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
